@@ -1,439 +1,439 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <elements>
-	<!-- Reset button -->
-	<elem screens="all">
-		<link href="start">14,607,233,607,233,652,14,652</link>
-	</elem>
-	<!-- Map -->
-	<elem screens="all">
-		<link href="start">253,93,473,93,473,140,253,140</link>
-	</elem>
-	<!-- Categories buttons -->
-	<elem screens="all">
-		<link href="cat01" except="langs">14,153,231,153,231,192,14,192</link>
-		<link href="cat11" except="langs">14,198,232,198,232,237,14,237</link>
-		<link href="cat2" except="langs">14,243,232,243,232,282,14,282</link>
-		<link href="cat3" except="langs">14,288,232,288,232,327,14,327</link>
-		<link href="cat4">14,333,232,333,232,372,14,372</link>
-		<link href="cat5">14,378,232,378,232,417,14,417</link>
-		<link href="cat6">14,423,232,423,232,462,14,462</link>
-		<link href="cat7">14,468,232,468,232,507,14,507</link>
-		<link href="cat8">14,513,232,513,232,552,14,552</link>
-		<link href="si_root" except="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1,si1_map1,si2_map1,si_map1,lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,si1_map2,si2_map2,si4_map2,si_map2,lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3,si1_map3,si2_map3,si3_map3,si_map3">14,558,231,558,231,596,14,596</link>
-	</elem>
-	<!-- 1st category listing. buttons -->
-	<elem screens="cat02,cat03,cat04">
-		<link href="cat01">307,500,340,500,340,532,307,532</link>
-	</elem>
-	<elem screens="cat01,cat03,cat04">
-		<link href="cat02">348,500,381,500,381,532,348,532</link>
-	</elem>
-	<elem screens="cat01,cat02,cat04">
-		<link href="cat03">391,500,423,500,423,532,391,532</link>
-	</elem>
-	<elem screens="cat01,cat02,cat03">
-		<link href="cat04">433,500,465,500,465,532,433,532</link>
-	</elem>
-	<!-- 1st category listing. right arrow -->
-	<elem screens="cat01">
-		<link href="cat02">475,500,511,500,511,532,475,532</link>
-	</elem>
-	<elem screens="cat02">
-		<link href="cat03">475,500,511,500,511,532,475,532</link>
-	</elem>
-	<elem screens="cat03">
-		<link href="cat04">475,500,511,500,511,532,475,532</link>
-	</elem>
-	<!-- 1st category listing. left arrow -->
-	<elem screens="cat04">
-		<link href="cat03">261,500,298,500,298,532,261,532</link>
-	</elem>
-	<elem screens="cat03">
-		<link href="cat02">261,500,298,500,298,532,261,532</link>
-	</elem>
-	<elem screens="cat02">
-		<link href="cat01">261,500,298,500,298,532,261,532</link>
-	</elem>
-	<!-- 2nd category listing -->
-	<elem screens="cat11">
-		<link href="cat12">
-			<part>348,500,381,500,381,532,348,532</part>
-			<part>391,500,428,500,428,532,391,532</part>
-		</link>
-	</elem>
-	<elem screens="cat12">
-		<link href="cat11">
-			<part>261,500,298,500,298,532,261,532</part>
-			<part>307,500,340,500,340,532,307,532</part>
-		</link>
-	</elem>
-	<!-- stores list openclose -->
-	<elem screens="cat01,cat02,cat03,cat04">
-		<link href="cat0_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat0_map3">258,540,628,540,628,650,258,650</link>
-	</elem>
-	<elem screens="cat0_map_root">
-		<link href="cat01">242,195,308,195,308,384,242,384</link>
-		<link href="cat0_map1">258,157,628,157,628,398,258,398</link>
-		<link href="cat0_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat0_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat11,cat12">
-		<link href="cat1_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat1_map3">258,540,628,540,628,650,258,650</link>
-	</elem>
-	<elem screens="cat1_map_root">
-		<link href="cat11">242,195,308,195,308,384,242,384</link>
-		<link href="cat1_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat1_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat2">
-		<link href="cat2_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat2_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat2_map_root">
-		<link href="cat2">242,195,308,195,308,384,242,384</link>
-		<link href="cat2_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat2_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat3">
-		<link href="cat3_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat3_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat3_map_root">
-		<link href="cat3">242,195,308,195,308,384,242,384</link>
-		<link href="cat3_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat3_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat4">
-		<link href="cat4_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat4_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat4_map_root">
-		<link href="cat4">242,195,308,195,308,384,242,384</link>
-		<link href="cat4_map1">258,157,628,157,628,398,258,398</link>
-		<link href="cat4_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat4_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat5">
-		<link href="cat5_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat5_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat5_map_root">
-		<link href="cat5">242,195,308,195,308,384,242,384</link>
-		<link href="cat5_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat5_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat6">
-		<link href="cat6_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat6_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat6_map_root">
-		<link href="cat6">242,195,308,195,308,384,242,384</link>
-		<link href="cat6_map1">258,157,628,157,628,398,258,398</link>
-		<link href="cat6_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat6_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat7">
-		<link href="cat7_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="cat7_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat7_map_root">
-		<link href="cat7">242,195,308,195,308,384,242,384</link>
-		<link href="cat7_map2">628,157,954,157,954,398,628,398</link>
-		<link href="cat7_map3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat8">
-		<link href="cat8_map_root">878,196,948,196,948,383,878,383</link>
-		<link href="lev3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat8_map_root">
-		<link href="cat8">242,195,308,195,308,384,242,384</link>
-		<link href="cat8_map1">258,157,628,157,628,398,258,398</link>
-		<link href="cat8_map2">628,157,954,157,954,398,628,398</link>
-		<link href="lev3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<elem screens="cat1_map_root,cat2_map_root,cat3_map_root,cat5_map_root,cat7_map_root">
-		<link href="lev1">258,157,628,157,628,398,258,398</link>
-	</elem>	
-	<elem screens="cat0_map1,cat0_map2,cat0_map3">
-		<link href="cat01">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat1_map2,cat1_map3,store_on_the_map">
-		<link href="cat11">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat2_map2,cat2_map3">
-		<link href="cat2">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat3_map2,cat3_map3">
-		<link href="cat3">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat4_map1,cat4_map2,cat4_map3">
-		<link href="cat4">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat5_map2,cat5_map3">
-		<link href="cat5">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat6_map1,cat6_map2,cat6_map3">
-		<link href="cat6">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat7_map2,cat7_map3">
-		<link href="cat7">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<elem screens="cat8_map1,cat8_map2">
-		<link href="cat8">242,195,308,195,308,384,242,384</link>
-	</elem>
-	<!--
-		Stores block
-		Open from banner 
-	 -->
-	<elem screens="all">
-		<link href="store">973,144,1194,144,1194,651,973,651</link>
-	</elem>
-	<!-- Openning store from the list -->
-	<elem screens="cat01,cat02,cat03,cat11">
-		<link href="store">258,200,873,200,873,490,258,490</link>
-	</elem>
-	<elem screens="cat04">
-		<link href="store">258,200,873,200,873,407,258,407</link>
-	</elem>
-	<elem screens="cat12">
-		<link href="store">258,200,873,200,873,281,378,281,378,322,258,322</link>
-	</elem>
-	<elem screens="cat2">
-		<link href="store">258,200,873,200,873,322,378,322,378,364,258,364</link>
-	</elem>
-	<elem screens="cat3,cat4">
-		<link href="store">258,200,873,200,873,322,258,322</link>
-	</elem>
-	<elem screens="cat5,cat8">
-		<link href="store">258,200,873,200,873,238,378,238,378,280,258,280</link>
-	</elem>
-	<elem screens="cat6">
-		<link href="store">258,200,873,200,873,280,258,280</link>
-	</elem>
-	<elem screens="cat7">
-		<link href="store">258,200,873,200,873,322,501,322,501,492,258,492</link>
-	</elem>
-	<!-- store from the map -->
-	<elem screens="lev1,lev1_zoom,lev2,lev2_zoom,lev3,lev3_zoom,store_on_the_map">
-		<link href="store">258,180,950,180,950,575,258,575</link>
-	</elem>
-	<!-- minisite of store -->
-	<elem screens="store">
-		<link href="store_top10">
-			<part>293,476,444,476,444,519,293,519</part>
-			<part>303,278,427,278,427,386,303,386</part>
-			<part>507,339,867,339,867,609,507,609</part>
-		</link>
-	</elem>
-	<elem screens="store_top10,store_top10_selected,store_top10_selected_back">
-		<link href="store">293,476,444,476,444,519,293,519</link>
-	</elem>
-	<elem screens="store_top10">
-		<link href="store_top10_selected">464,349,905,349,905,641,464,641</link>
-	</elem>
-	<elem screens="store_top10_selected,store_top10_selected_back">
-		<link href="store_top10">
-			<part>464,349,724,349,724,641,464,641</part>
-			<part>724,349,789,349,789,562,724,562</part>
-			<part>789,349,905,349,905,641,789,641</part>
-			<part>724,624,788,624,788,641,724,641</part>
-		</link>
-	</elem>
-	<elem screens="store_top10_selected">
-		<link href="store_top10_selected_back">725,563,788,563,788,624,725,624</link>
-	</elem>
-	<elem screens="store_top10_selected_back">
-		<link href="store_top10_selected">725,563,788,563,788,624,725,624</link>
-	</elem>
-	<elem screens="store,store_top10,store_top10_selected,store_top10_selected_back">
-		<link href="lev2">882,195,934,195,934,246,882,246</link>
-		<link href="store_gift">293,523,444,523,444,565,293,565</link>
-		<link href="store_on_the_map">293,570,444,570,444,614,293,614</link>
-	</elem>
-	<!-- Levels block -->
-	<elem screens="start">
-		<link href="lev1">258,157,628,157,628,398,258,398</link>
-		<link href="lev2">628,157,954,157,954,398,628,398</link>
-		<link href="lev3">258,398,628,398,628,650,258,650</link>
-	</elem>
-	<!-- levels buttons -->
-	<elem screens="lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,si1_map2,si2_map2,si4_map2,si_map2,lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3,si1_map3,si2_map3,si3_map3,si_map3,store_on_the_map">
-		<link href="lev1">732,583,800,583,800,652,732,652</link>
-	</elem>
-	<elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1,si1_map1,si2_map1,si_map1,lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3,si1_map3,si2_map3,si3_map3,si_map3">
-		<link href="lev2">808,583,876,583,876,652,808,652</link>
-	</elem>
-	<elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1,si1_map1,si2_map1,si_map1,lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,si1_map2,si2_map2,si4_map2,si_map2,store_on_the_map">
-		<link href="lev3">885,583,953,583,953,652,885,652</link>
-	</elem>
-	<!-- scaling -->
-	<elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1">
-		<link href="lev1_zoom">255,583,324,583,324,652,255,652</link>
-	</elem>
-	<elem screens="lev1_zoom">
-		<link href="lev1">333,583,401,583,401,652,333,652</link>
-	</elem>
-	<elem screens="lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,store_on_the_map">
-		<link href="lev2_zoom">255,583,324,583,324,652,255,652</link>
-	</elem>
-	<elem screens="lev2_zoom">
-		<link href="lev2">333,583,401,583,401,652,333,652</link>
-	</elem>
-	<elem screens="lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3">
-		<link href="lev3_zoom">255,583,324,583,324,652,255,652</link>
-	</elem>
-	<elem screens="lev3_zoom">
-		<link href="lev3">333,583,401,583,401,652,333,652</link>
-	</elem>
-	<!-- Service icons -->
-	<elem screens="si_root,si_root1,si_root2,si_root3,si_root4">
-		<link href="start">580,570,645,570,645,636,580,636</link>
-	</elem>
-	<elem screens="si_root,si_root2,si_root3,si_root4">
-		<link href="si_root1">259,568,326,568,326,636,259,636</link>
-	</elem>
-	<elem screens="si_root,si_root1,si_root3,si_root4">
-		<link href="si_root2">339,568,406,568,406,636,339,636</link>
-	</elem>
-	<elem screens="si_root,si_root1,si_root2,si_root4">
-		<link href="si_root3">419,568,486,568,486,636,419,636</link>
-	</elem>
-	<elem screens="si_root,si_root1,si_root2,si_root3">
-		<link href="si_root4">499,568,566,568,566,636,499,636</link>
-	</elem>
-	<elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1">
-		<link href="si_map1">14,558,231,558,231,596,14,596</link>
-	</elem>
-	<elem screens="si2_map1,si_map1">
-		<link href="si1_map1">259,568,326,568,326,636,259,636</link>
-	</elem>
-	<elem screens="si1_map1,si_map1">
-		<link href="si2_map1">339,568,406,568,406,636,339,636</link>
-	</elem>
-	<elem screens="si1_map1,si2_map1,si_map1">
-		<link href="si3_map3">419,568,486,568,486,636,419,636</link>
-		<link href="si4_map2">499,568,566,568,566,636,499,636</link>
-		<link href="lev1">580,570,645,570,645,636,580,636</link>
-	</elem>
-	<elem screens="lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2">
-		<link href="si_map2">14,558,231,558,231,596,14,596</link>
-	</elem>
-	<elem screens="si2_map2,si4_map2,si_map2">
-		<link href="si1_map2">259,568,326,568,326,636,259,636</link>
-	</elem>
-	<elem screens="si1_map2,si4_map2,si_map2">
-		<link href="si2_map2">339,568,406,568,406,636,339,636</link>
-	</elem>
-	<elem screens="si1_map2,si2_map2,si4_map2,si_map2">
-		<link href="si3_map3">419,568,486,568,486,636,419,636</link>
-		<link href="lev2">580,570,645,570,645,636,580,636</link>
-	</elem>
-	<elem screens="si1_map2,si2_map2,si_map2">
-		<link href="si4_map2">499,568,566,568,566,636,499,636</link>
-	</elem>
-	<elem screens="lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3">
-		<link href="si_map3">14,558,231,558,231,596,14,596</link>
-	</elem>
-	<elem screens="si2_map3,si3_map3,si_map3">
-		<link href="si1_map3">259,568,326,568,326,636,259,636</link>
-	</elem>
-	<elem screens="si1_map3,si3_map3,si_map3">
-		<link href="si2_map3">339,568,406,568,406,636,339,636</link>
-	</elem>
-	<elem screens="si1_map3,si2_map3,si_map3">
-		<link href="si3_map3">419,568,486,568,486,636,419,636</link>
-	</elem>
-	<elem screens="si1_map3,si2_map3,si3_map3,si_map3">
-		<link href="si4_map2">499,568,566,568,566,636,499,636</link>
-		<link href="lev3">580,570,645,570,645,636,580,636</link>
-	</elem>
-	<!-- Drum -->
-	<elem screens="all">
-		<link href="drum" except="drum,drum_confirm,drum_dialer,drum_prize">494,93,712,93,712,140,494,140</link>
-	</elem>
-	<elem screens="drum">
-		<link href="drum_prize">371,168,847,168,847,645,371,645</link>
-	</elem>
-	<elem screens="drum_prize">
-		<link href="drum">383,495,592,495,592,554,383,554</link>
-		<link href="drum_dialer">630,495,839,495,839,554,630,554</link>
-	</elem>
-	<elem screens="drum_dialer">
-		<link href="drum">386,496,613,496,613,553,386,553</link>
-		<link href="drum_confirm">640,374,813,374,813,531,640,531</link>
-	</elem>
-	<elem screens="drum_confirm">
-		<link href="drum">505,496,715,496,715,554,505,554</link>
-	</elem>
-	<elem screens="si_root1">
-		<link href="si1_map1">258,157,628,157,628,398,258,398</link>
-		<link href="si1_map2">628,157,954,157,954,398,628,398</link>
-		<link href="si1_map3">258,398,628,398,628,559,258,559</link>
-	</elem>
-	<elem screens="si_root2">
-		<link href="si2_map1">258,157,628,157,628,398,258,398</link>
-		<link href="si2_map2">628,157,954,157,954,398,628,398</link>
-		<link href="si2_map3">258,398,628,398,628,559,258,559</link>
-	</elem>
-	<elem screens="si_root3">
-		<link href="lev1">258,157,628,157,628,398,258,398</link>
-		<link href="lev2">628,157,954,157,954,398,628,398</link>
-		<link href="si3_map3">258,398,628,398,628,559,258,559</link>
-	</elem>
-	<elem screens="si_root4">
-		<link href="lev1">258,157,628,157,628,398,258,398</link>
-		<link href="si4_map2">628,157,954,157,954,398,628,398</link>
-		<link href="lev3">258,398,628,398,628,559,258,559</link>
-	</elem>
-	<elem screens="si_root">
-		<link href="lev1">258,157,628,157,628,398,258,398</link>
-		<link href="lev2">628,157,954,157,954,398,628,398</link>
-		<link href="lev3">258,398,628,398,628,559,258,559</link>
-	</elem>
-	<!-- Lottery -->
-	<elem screens="all">
-		<link href="lott" except="lott,lott2,store_gift,store_gift_confirm,store_gift_dialer">734,93,952,93,952,140,734,140</link>
-	</elem>
-	<elem screens="lott,lott2">
-		<link href="store_gift">
-			<part>308,303,904,303,904,531,308,531</part>
-			<part>308,531,781,531,781,653,308,653</part>
-		</link>
-	</elem>
-	<elem screens="lott">
-		<link href="lott2">796,549,905,549,905,652,796,652</link>
-	</elem>
-	<elem screens="lott2">
-		<link href="lott">796,549,905,549,905,652,796,652</link>
-	</elem>
-	<elem screens="store_gift">
-		<link href="store_gift_dialer">618,401,795,401,795,531,618,531</link>
-		<link href="lott">377,253,833,253,833,298,377,298</link>
-	</elem>
-	<elem screens="store_gift_dialer">
-		<link href="store_gift_confirm">636,379,810,379,810,536,636,536</link>
-		<link href="lott">380,502,610,502,610,560,380,560</link>
-	</elem>
-	<elem screens="store_gift_confirm">
-		<link href="lott">500,500,712,500,712,560,500,560</link>
-	</elem>
-	<!-- Ninetieth minute -->
-	<elem screens="all">
-		<link href="ninetieth" except="ninetieth">973,93,1193,93,1193,140,973,140</link>
-	</elem>
-	<elem screens="ninetieth">
-		<link href="start">
-			<part>504,467,560,467,560,506,504,506</part>
-			<part>792,213,845,213,845,264,792,264</part>
-		</link>
-	</elem>
-	<!-- Language -->
-	<elem screens="all">
-		<link href="langs" except="langs">14,93,232,93,232,140,14,140</link>
-	</elem>
-	<elem screens="langs">
-		<link href="start">14,93,232,93,232,325,14,325</link>
-	</elem>
+    <!-- Reset button -->
+    <elem screens="all">
+        <link href="start">14,607,233,607,233,652,14,652</link>
+    </elem>
+    <!-- Map -->
+    <elem screens="all">
+        <link href="start">253,93,473,93,473,140,253,140</link>
+    </elem>
+    <!-- Categories buttons -->
+    <elem screens="all">
+        <link href="cat01" except="langs">14,153,231,153,231,192,14,192</link>
+        <link href="cat11" except="langs">14,198,232,198,232,237,14,237</link>
+        <link href="cat2" except="langs">14,243,232,243,232,282,14,282</link>
+        <link href="cat3" except="langs">14,288,232,288,232,327,14,327</link>
+        <link href="cat4">14,333,232,333,232,372,14,372</link>
+        <link href="cat5">14,378,232,378,232,417,14,417</link>
+        <link href="cat6">14,423,232,423,232,462,14,462</link>
+        <link href="cat7">14,468,232,468,232,507,14,507</link>
+        <link href="cat8">14,513,232,513,232,552,14,552</link>
+        <link href="si_root" except="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1,si1_map1,si2_map1,si_map1,lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,si1_map2,si2_map2,si4_map2,si_map2,lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3,si1_map3,si2_map3,si3_map3,si_map3">14,558,231,558,231,596,14,596</link>
+    </elem>
+    <!-- 1st category listing. buttons -->
+    <elem screens="cat02,cat03,cat04">
+        <link href="cat01">307,500,340,500,340,532,307,532</link>
+    </elem>
+    <elem screens="cat01,cat03,cat04">
+        <link href="cat02">348,500,381,500,381,532,348,532</link>
+    </elem>
+    <elem screens="cat01,cat02,cat04">
+        <link href="cat03">391,500,423,500,423,532,391,532</link>
+    </elem>
+    <elem screens="cat01,cat02,cat03">
+        <link href="cat04">433,500,465,500,465,532,433,532</link>
+    </elem>
+    <!-- 1st category listing. right arrow -->
+    <elem screens="cat01">
+        <link href="cat02">475,500,511,500,511,532,475,532</link>
+    </elem>
+    <elem screens="cat02">
+        <link href="cat03">475,500,511,500,511,532,475,532</link>
+    </elem>
+    <elem screens="cat03">
+        <link href="cat04">475,500,511,500,511,532,475,532</link>
+    </elem>
+    <!-- 1st category listing. left arrow -->
+    <elem screens="cat04">
+        <link href="cat03">261,500,298,500,298,532,261,532</link>
+    </elem>
+    <elem screens="cat03">
+        <link href="cat02">261,500,298,500,298,532,261,532</link>
+    </elem>
+    <elem screens="cat02">
+        <link href="cat01">261,500,298,500,298,532,261,532</link>
+    </elem>
+    <!-- 2nd category listing -->
+    <elem screens="cat11">
+        <link href="cat12">
+            <part>348,500,381,500,381,532,348,532</part>
+            <part>391,500,428,500,428,532,391,532</part>
+        </link>
+    </elem>
+    <elem screens="cat12">
+        <link href="cat11">
+            <part>261,500,298,500,298,532,261,532</part>
+            <part>307,500,340,500,340,532,307,532</part>
+        </link>
+    </elem>
+    <!-- stores list openclose -->
+    <elem screens="cat01,cat02,cat03,cat04">
+        <link href="cat0_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat0_map3">258,540,628,540,628,650,258,650</link>
+    </elem>
+    <elem screens="cat0_map_root">
+        <link href="cat01">242,195,308,195,308,384,242,384</link>
+        <link href="cat0_map1">258,157,628,157,628,398,258,398</link>
+        <link href="cat0_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat0_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat11,cat12">
+        <link href="cat1_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat1_map3">258,540,628,540,628,650,258,650</link>
+    </elem>
+    <elem screens="cat1_map_root">
+        <link href="cat11">242,195,308,195,308,384,242,384</link>
+        <link href="cat1_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat1_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat2">
+        <link href="cat2_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat2_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat2_map_root">
+        <link href="cat2">242,195,308,195,308,384,242,384</link>
+        <link href="cat2_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat2_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat3">
+        <link href="cat3_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat3_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat3_map_root">
+        <link href="cat3">242,195,308,195,308,384,242,384</link>
+        <link href="cat3_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat3_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat4">
+        <link href="cat4_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat4_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat4_map_root">
+        <link href="cat4">242,195,308,195,308,384,242,384</link>
+        <link href="cat4_map1">258,157,628,157,628,398,258,398</link>
+        <link href="cat4_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat4_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat5">
+        <link href="cat5_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat5_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat5_map_root">
+        <link href="cat5">242,195,308,195,308,384,242,384</link>
+        <link href="cat5_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat5_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat6">
+        <link href="cat6_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat6_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat6_map_root">
+        <link href="cat6">242,195,308,195,308,384,242,384</link>
+        <link href="cat6_map1">258,157,628,157,628,398,258,398</link>
+        <link href="cat6_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat6_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat7">
+        <link href="cat7_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="cat7_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat7_map_root">
+        <link href="cat7">242,195,308,195,308,384,242,384</link>
+        <link href="cat7_map2">628,157,954,157,954,398,628,398</link>
+        <link href="cat7_map3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat8">
+        <link href="cat8_map_root">878,196,948,196,948,383,878,383</link>
+        <link href="lev3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat8_map_root">
+        <link href="cat8">242,195,308,195,308,384,242,384</link>
+        <link href="cat8_map1">258,157,628,157,628,398,258,398</link>
+        <link href="cat8_map2">628,157,954,157,954,398,628,398</link>
+        <link href="lev3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <elem screens="cat1_map_root,cat2_map_root,cat3_map_root,cat5_map_root,cat7_map_root">
+        <link href="lev1">258,157,628,157,628,398,258,398</link>
+    </elem>
+    <elem screens="cat0_map1,cat0_map2,cat0_map3">
+        <link href="cat01">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat1_map2,cat1_map3,store_on_the_map">
+        <link href="cat11">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat2_map2,cat2_map3">
+        <link href="cat2">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat3_map2,cat3_map3">
+        <link href="cat3">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat4_map1,cat4_map2,cat4_map3">
+        <link href="cat4">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat5_map2,cat5_map3">
+        <link href="cat5">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat6_map1,cat6_map2,cat6_map3">
+        <link href="cat6">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat7_map2,cat7_map3">
+        <link href="cat7">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <elem screens="cat8_map1,cat8_map2">
+        <link href="cat8">242,195,308,195,308,384,242,384</link>
+    </elem>
+    <!--
+        Stores block
+        Open from banner
+     -->
+    <elem screens="all">
+        <link href="store">973,144,1194,144,1194,651,973,651</link>
+    </elem>
+    <!-- Openning store from the list -->
+    <elem screens="cat01,cat02,cat03,cat11">
+        <link href="store">258,200,873,200,873,490,258,490</link>
+    </elem>
+    <elem screens="cat04">
+        <link href="store">258,200,873,200,873,407,258,407</link>
+    </elem>
+    <elem screens="cat12">
+        <link href="store">258,200,873,200,873,281,378,281,378,322,258,322</link>
+    </elem>
+    <elem screens="cat2">
+        <link href="store">258,200,873,200,873,322,378,322,378,364,258,364</link>
+    </elem>
+    <elem screens="cat3,cat4">
+        <link href="store">258,200,873,200,873,322,258,322</link>
+    </elem>
+    <elem screens="cat5,cat8">
+        <link href="store">258,200,873,200,873,238,378,238,378,280,258,280</link>
+    </elem>
+    <elem screens="cat6">
+        <link href="store">258,200,873,200,873,280,258,280</link>
+    </elem>
+    <elem screens="cat7">
+        <link href="store">258,200,873,200,873,322,501,322,501,492,258,492</link>
+    </elem>
+    <!-- store from the map -->
+    <elem screens="lev1,lev1_zoom,lev2,lev2_zoom,lev3,lev3_zoom,store_on_the_map">
+        <link href="store">258,180,950,180,950,575,258,575</link>
+    </elem>
+    <!-- minisite of store -->
+    <elem screens="store">
+        <link href="store_top10">
+            <part>293,476,444,476,444,519,293,519</part>
+            <part>303,278,427,278,427,386,303,386</part>
+            <part>507,339,867,339,867,609,507,609</part>
+        </link>
+    </elem>
+    <elem screens="store_top10,store_top10_selected,store_top10_selected_back">
+        <link href="store">293,476,444,476,444,519,293,519</link>
+    </elem>
+    <elem screens="store_top10">
+        <link href="store_top10_selected">464,349,905,349,905,641,464,641</link>
+    </elem>
+    <elem screens="store_top10_selected,store_top10_selected_back">
+        <link href="store_top10">
+            <part>464,349,724,349,724,641,464,641</part>
+            <part>724,349,789,349,789,562,724,562</part>
+            <part>789,349,905,349,905,641,789,641</part>
+            <part>724,624,788,624,788,641,724,641</part>
+        </link>
+    </elem>
+    <elem screens="store_top10_selected">
+        <link href="store_top10_selected_back">725,563,788,563,788,624,725,624</link>
+    </elem>
+    <elem screens="store_top10_selected_back">
+        <link href="store_top10_selected">725,563,788,563,788,624,725,624</link>
+    </elem>
+    <elem screens="store,store_top10,store_top10_selected,store_top10_selected_back">
+        <link href="lev2">882,195,934,195,934,246,882,246</link>
+        <link href="store_gift">293,523,444,523,444,565,293,565</link>
+        <link href="store_on_the_map">293,570,444,570,444,614,293,614</link>
+    </elem>
+    <!-- Levels block -->
+    <elem screens="start">
+        <link href="lev1">258,157,628,157,628,398,258,398</link>
+        <link href="lev2">628,157,954,157,954,398,628,398</link>
+        <link href="lev3">258,398,628,398,628,650,258,650</link>
+    </elem>
+    <!-- levels buttons -->
+    <elem screens="lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,si1_map2,si2_map2,si4_map2,si_map2,lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3,si1_map3,si2_map3,si3_map3,si_map3,store_on_the_map">
+        <link href="lev1">732,583,800,583,800,652,732,652</link>
+    </elem>
+    <elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1,si1_map1,si2_map1,si_map1,lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3,si1_map3,si2_map3,si3_map3,si_map3">
+        <link href="lev2">808,583,876,583,876,652,808,652</link>
+    </elem>
+    <elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1,si1_map1,si2_map1,si_map1,lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,si1_map2,si2_map2,si4_map2,si_map2,store_on_the_map">
+        <link href="lev3">885,583,953,583,953,652,885,652</link>
+    </elem>
+    <!-- scaling -->
+    <elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1">
+        <link href="lev1_zoom">255,583,324,583,324,652,255,652</link>
+    </elem>
+    <elem screens="lev1_zoom">
+        <link href="lev1">333,583,401,583,401,652,333,652</link>
+    </elem>
+    <elem screens="lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2,store_on_the_map">
+        <link href="lev2_zoom">255,583,324,583,324,652,255,652</link>
+    </elem>
+    <elem screens="lev2_zoom">
+        <link href="lev2">333,583,401,583,401,652,333,652</link>
+    </elem>
+    <elem screens="lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3">
+        <link href="lev3_zoom">255,583,324,583,324,652,255,652</link>
+    </elem>
+    <elem screens="lev3_zoom">
+        <link href="lev3">333,583,401,583,401,652,333,652</link>
+    </elem>
+    <!-- Service icons -->
+    <elem screens="si_root,si_root1,si_root2,si_root3,si_root4">
+        <link href="start">580,570,645,570,645,636,580,636</link>
+    </elem>
+    <elem screens="si_root,si_root2,si_root3,si_root4">
+        <link href="si_root1">259,568,326,568,326,636,259,636</link>
+    </elem>
+    <elem screens="si_root,si_root1,si_root3,si_root4">
+        <link href="si_root2">339,568,406,568,406,636,339,636</link>
+    </elem>
+    <elem screens="si_root,si_root1,si_root2,si_root4">
+        <link href="si_root3">419,568,486,568,486,636,419,636</link>
+    </elem>
+    <elem screens="si_root,si_root1,si_root2,si_root3">
+        <link href="si_root4">499,568,566,568,566,636,499,636</link>
+    </elem>
+    <elem screens="lev1,lev1_zoom,cat0_map1,cat4_map1,cat6_map1,cat8_map1">
+        <link href="si_map1">14,558,231,558,231,596,14,596</link>
+    </elem>
+    <elem screens="si2_map1,si_map1">
+        <link href="si1_map1">259,568,326,568,326,636,259,636</link>
+    </elem>
+    <elem screens="si1_map1,si_map1">
+        <link href="si2_map1">339,568,406,568,406,636,339,636</link>
+    </elem>
+    <elem screens="si1_map1,si2_map1,si_map1">
+        <link href="si3_map3">419,568,486,568,486,636,419,636</link>
+        <link href="si4_map2">499,568,566,568,566,636,499,636</link>
+        <link href="lev1">580,570,645,570,645,636,580,636</link>
+    </elem>
+    <elem screens="lev2,lev2_zoom,cat0_map2,cat1_map2,cat2_map2,cat3_map2,cat4_map2,cat5_map2,cat6_map2,cat7_map2,cat8_map2">
+        <link href="si_map2">14,558,231,558,231,596,14,596</link>
+    </elem>
+    <elem screens="si2_map2,si4_map2,si_map2">
+        <link href="si1_map2">259,568,326,568,326,636,259,636</link>
+    </elem>
+    <elem screens="si1_map2,si4_map2,si_map2">
+        <link href="si2_map2">339,568,406,568,406,636,339,636</link>
+    </elem>
+    <elem screens="si1_map2,si2_map2,si4_map2,si_map2">
+        <link href="si3_map3">419,568,486,568,486,636,419,636</link>
+        <link href="lev2">580,570,645,570,645,636,580,636</link>
+    </elem>
+    <elem screens="si1_map2,si2_map2,si_map2">
+        <link href="si4_map2">499,568,566,568,566,636,499,636</link>
+    </elem>
+    <elem screens="lev3,lev3_zoom,cat0_map3,cat1_map3,cat2_map3,cat3_map3,cat4_map3,cat5_map3,cat6_map3,cat7_map3">
+        <link href="si_map3">14,558,231,558,231,596,14,596</link>
+    </elem>
+    <elem screens="si2_map3,si3_map3,si_map3">
+        <link href="si1_map3">259,568,326,568,326,636,259,636</link>
+    </elem>
+    <elem screens="si1_map3,si3_map3,si_map3">
+        <link href="si2_map3">339,568,406,568,406,636,339,636</link>
+    </elem>
+    <elem screens="si1_map3,si2_map3,si_map3">
+        <link href="si3_map3">419,568,486,568,486,636,419,636</link>
+    </elem>
+    <elem screens="si1_map3,si2_map3,si3_map3,si_map3">
+        <link href="si4_map2">499,568,566,568,566,636,499,636</link>
+        <link href="lev3">580,570,645,570,645,636,580,636</link>
+    </elem>
+    <!-- Drum -->
+    <elem screens="all">
+        <link href="drum" except="drum,drum_confirm,drum_dialer,drum_prize">494,93,712,93,712,140,494,140</link>
+    </elem>
+    <elem screens="drum">
+        <link href="drum_prize">371,168,847,168,847,645,371,645</link>
+    </elem>
+    <elem screens="drum_prize">
+        <link href="drum">383,495,592,495,592,554,383,554</link>
+        <link href="drum_dialer">630,495,839,495,839,554,630,554</link>
+    </elem>
+    <elem screens="drum_dialer">
+        <link href="drum">386,496,613,496,613,553,386,553</link>
+        <link href="drum_confirm">640,374,813,374,813,531,640,531</link>
+    </elem>
+    <elem screens="drum_confirm">
+        <link href="drum">505,496,715,496,715,554,505,554</link>
+    </elem>
+    <elem screens="si_root1">
+        <link href="si1_map1">258,157,628,157,628,398,258,398</link>
+        <link href="si1_map2">628,157,954,157,954,398,628,398</link>
+        <link href="si1_map3">258,398,628,398,628,559,258,559</link>
+    </elem>
+    <elem screens="si_root2">
+        <link href="si2_map1">258,157,628,157,628,398,258,398</link>
+        <link href="si2_map2">628,157,954,157,954,398,628,398</link>
+        <link href="si2_map3">258,398,628,398,628,559,258,559</link>
+    </elem>
+    <elem screens="si_root3">
+        <link href="lev1">258,157,628,157,628,398,258,398</link>
+        <link href="lev2">628,157,954,157,954,398,628,398</link>
+        <link href="si3_map3">258,398,628,398,628,559,258,559</link>
+    </elem>
+    <elem screens="si_root4">
+        <link href="lev1">258,157,628,157,628,398,258,398</link>
+        <link href="si4_map2">628,157,954,157,954,398,628,398</link>
+        <link href="lev3">258,398,628,398,628,559,258,559</link>
+    </elem>
+    <elem screens="si_root">
+        <link href="lev1">258,157,628,157,628,398,258,398</link>
+        <link href="lev2">628,157,954,157,954,398,628,398</link>
+        <link href="lev3">258,398,628,398,628,559,258,559</link>
+    </elem>
+    <!-- Lottery -->
+    <elem screens="all">
+        <link href="lott" except="lott,lott2,store_gift,store_gift_confirm,store_gift_dialer">734,93,952,93,952,140,734,140</link>
+    </elem>
+    <elem screens="lott,lott2">
+        <link href="store_gift">
+            <part>308,303,904,303,904,531,308,531</part>
+            <part>308,531,781,531,781,653,308,653</part>
+        </link>
+    </elem>
+    <elem screens="lott">
+        <link href="lott2">796,549,905,549,905,652,796,652</link>
+    </elem>
+    <elem screens="lott2">
+        <link href="lott">796,549,905,549,905,652,796,652</link>
+    </elem>
+    <elem screens="store_gift">
+        <link href="store_gift_dialer">618,401,795,401,795,531,618,531</link>
+        <link href="lott">377,253,833,253,833,298,377,298</link>
+    </elem>
+    <elem screens="store_gift_dialer">
+        <link href="store_gift_confirm">636,379,810,379,810,536,636,536</link>
+        <link href="lott">380,502,610,502,610,560,380,560</link>
+    </elem>
+    <elem screens="store_gift_confirm">
+        <link href="lott">500,500,712,500,712,560,500,560</link>
+    </elem>
+    <!-- Ninetieth minute -->
+    <elem screens="all">
+        <link href="ninetieth" except="ninetieth">973,93,1193,93,1193,140,973,140</link>
+    </elem>
+    <elem screens="ninetieth">
+        <link href="start">
+            <part>504,467,560,467,560,506,504,506</part>
+            <part>792,213,845,213,845,264,792,264</part>
+        </link>
+    </elem>
+    <!-- Language -->
+    <elem screens="all">
+        <link href="langs" except="langs">14,93,232,93,232,140,14,140</link>
+    </elem>
+    <elem screens="langs">
+        <link href="start">14,93,232,93,232,325,14,325</link>
+    </elem>
 </elements>
