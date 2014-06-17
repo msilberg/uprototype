@@ -19,7 +19,7 @@ $obj=new data();
 <center>
     <?php $obj->body_otp() ?>
     <div class="all-rights">
-        All rights reserved. Uniqoom Ltd. 2010-<?php echo date('Y') ?>
+        U Prototype - a Free Software <?php echo date('Y') ?>
     </div>
 </center>
 </body>
