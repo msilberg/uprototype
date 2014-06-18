@@ -9,8 +9,8 @@ class data
      * 1 - screenshots
      */
 
-    static $raddr="/var/www/public_html/uprototype/";
-    static $traddr="http://localhost/public_html/uprototype/";
+    static $raddr="";
+    static $traddr="";
     static $scr_format=".jpg";
     static $scr; // screens directory
     static $scrf; // screens files array

@@ -1,6 +1,7 @@
+<!-- Initial release at 2011-12-22 -->
 <?php
-require_once("/var/www/public_html/uprototype/core/loader.inc");
-$obj=new data();
+require_once("core/loader.inc");
+$obj = new data();
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
@@ -13,7 +14,7 @@ $obj=new data();
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <?php $obj->js_otp() ?>
     ?>
-    <!-- Date: 2011-12-22 -->
+
 </head>
 <body>
 <center>
